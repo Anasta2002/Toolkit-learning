@@ -1,0 +1,30 @@
+.task_card {
+  border: 2px solid rgba(165, 42, 42, 0.377);
+  width: 300px;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.close_btn {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(188, 188, 188);
+  border-radius: 50px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.green {
+  background-color: rgb(164, 217, 164);
+}

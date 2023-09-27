@@ -1,0 +1,12 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs input,
+button {
+  height: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 0 20px;
+}

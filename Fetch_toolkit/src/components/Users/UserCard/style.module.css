@@ -1,0 +1,37 @@
+.card {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.close {
+  width: 90px;
+  height: 20px;
+  cursor: pointer;
+  background-color: beige;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_part {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.incr_decr_btns {
+  display: flex;
+  align-items: center;
+
+  > button {
+    background-color: beige;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+  }
+}

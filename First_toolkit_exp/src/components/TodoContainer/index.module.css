@@ -1,0 +1,11 @@
+.delete_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 50px;
+}
+
+.delete_btn:hover {
+  color: rgba(165, 42, 42, 0.377);
+}
